@@ -259,28 +259,28 @@ public class OnlineCoursesAnalyzer {
 }
 
 class Course {
-   String institution;
-   String number;
+  String institution;
+  String number;
   Date launchDate;
-   String title;
-   String instructors;
-   String subject;
-   int year;
-   int honorCode;
-   int participants;
-   int audited;
-   int certified;
-   double percentAudited;
-   double percentCertified;
+  String title;
+  String instructors;
+  String subject;
+  int year;
+  int honorCode;
+  int participants;
+  int audited;
+  int certified;
+  double percentAudited;
+  double percentCertified;
   double percentCertified50;
-   double percentVideo;
-   double percentForum;
-   double gradeHigherZero;
-   double totalHours;
-   double medianHoursCertification;
-   double medianAge;
-   double percentMale;
-   double percentFemale;
+  double percentVideo;
+  double percentForum;
+  double gradeHigherZero;
+  double totalHours;
+  double medianHoursCertification;
+  double medianAge;
+  double percentMale;
+  double percentFemale;
   double percentDegree;
 
   public Course(String institution, String number, Date launchDate,
